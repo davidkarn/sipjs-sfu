@@ -38,9 +38,9 @@
   "main": "src/index.js",
   "name": "sipjs-udp",
   "scripts": {
-    "prepublish": "cd src/Grammar && mkdir -p dist && pegjs --extra-options-file peg.json src/Grammar.pegjs dist/Grammar.js",
+    "prepublishOnly": "cd src/Grammar && mkdir -p dist && pegjs --extra-options-file peg.json src/Grammar.pegjs dist/Grammar.js",
     "test": "grunt travis --verbose"
   },
   "title": "sipjs-udp",
-  "version": "0.0.15"
+  "version": "0.0.17"
 }
